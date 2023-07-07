@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping
     public String sayHello() {
         log.info("jestem tu");
-        return "Hello mordo!";
+        return "Hello mordo";
     }
 
     @GetMapping("/branch")

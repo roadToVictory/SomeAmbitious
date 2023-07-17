@@ -17,6 +17,6 @@ public class HelloController {
     @GetMapping("/branch")
     public String sayHelloOnBranch() {
         log.info("jestem tu na branchu");
-        return "Hello mordo na branchu!";
+        return "Hello mordziaty na branchu!";
     }
 }

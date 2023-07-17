@@ -29,7 +29,7 @@ public class MyScheduler {
     @Qualifier("myJob")
     private Job job;
 
-    @Scheduled(cron="*/45 * * * * ?")
+    @Scheduled(cron="*/15 * * * * ?")
     public void myScheduler(){
         JobParameters jobParameters = new JobParametersBuilder().addLong("time", System.currentTimeMillis()).toJobParameters();
 
